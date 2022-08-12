@@ -370,6 +370,9 @@ h1{
 
 
 /* footer section */
+#footer{
+  padding: 13px 0 ! important;
+}
   footer .copyright{
     margin-left: 0 !important;
     font-size: .8em;
@@ -480,7 +483,7 @@ h1{
 }
 /* footer section */
 #footer{
-  padding: 30px 4px;  
+  padding: 30px;  
 }
 
 footer .social-links a{
