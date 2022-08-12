@@ -480,7 +480,7 @@ h1{
 }
 /* footer section */
 #footer{
-  padding: 30px;  
+  padding: 30px 4px;  
 }
 
 footer .social-links a{
