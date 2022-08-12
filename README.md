@@ -61,7 +61,7 @@ Much of my skills was applied in the design of this portfolio App.
 ##  Contact
 
 If you have any questions or have offers, please reach me from following channels
-- douglasronno[at]gmail.com
+- douglasronno@gmail.com
 - [twitter](https://twitter.com/itsdaglas)
 - [Linkedin](https://linkedin.com/in/douglas-kiprono-ke)
 - [facebook](https://www.facebook.com/douglas.ronno)
