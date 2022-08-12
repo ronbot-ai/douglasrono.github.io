@@ -8,7 +8,7 @@
 body {
   font-family: "roboto", sans-serif !important;
   color: #eff7ef !important;
-  background: rgba(54, 49, 80);
+  background: rgba(54, 49, 80,1);
 }
 ul{
   list-style: none;
@@ -21,7 +21,7 @@ section{
 
 /* bi icons */
 .bi-github{
-  color: #171616;
+  color: hsl(0, 0%, 1%);
 }
 .bi-at{
   color: hsl(0, 92%, 50%);
@@ -172,7 +172,7 @@ h1{
 /* hero section */
 #hero {
   width: 100%;
-  background: linear-gradient(45deg, rgba(54, 49, 80, 0.9) 0%, rgba(42, 36, 48, 0.9) 100%), url("../img/heroanim.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(54, 49, 80, 0.9) 0%, rgba(42, 36, 48, 0.7) 100%), url("../img/heroanim.jpg") center center no-repeat;
   background-size: cover;
   text-align: left;
   position: relative;
@@ -272,20 +272,23 @@ h1{
   margin-left: 0 !important;
 }
 .about .skills-title h2{
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .about .skills ul{
-  color: #f4d10f;
   font-weight: 300;
   line-height: 1.5rem;
   text-transform: uppercase;
   list-style-type: circle;
-  font-size: 18px;
-  transition: all 2s linear;
+  font-size: 14px;
 
 }
-.about .skills ul:hover{
-  color: #08f50c;
+.about .skills ul li:nth-child(odd){
+  color: #e8e005;
+
+}
+.about .skills ul li:nth-child(even){
+  color: #20eb0a;
+
 }
 
 /* experience  */
@@ -476,9 +479,8 @@ h1{
    }
 }
 /* footer section */
-footer{
-  padding-bottom: 30px;
-  
+#footer{
+  padding: 30px;  
 }
 
 footer .social-links a{
