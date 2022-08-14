@@ -23,7 +23,7 @@ var increment = ()=>{
 
 
 let callReset=()=>{
-   display.innerHTML=0;
+   model.value=0;
 }
 
 callReset()
