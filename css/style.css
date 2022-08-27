@@ -444,7 +444,10 @@ background-size: cover;
 .portfolio .box:hover span, .portfolio .box:hover h4, .portfolio .box:hover p {
   color: #fff;
 }
-
+.portfolio .btn{
+  border: 2px solid yellowgreen;
+  color: #f1f5f0;
+}
 
 /* contact section */
 .contact{
