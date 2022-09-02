@@ -1,14 +1,17 @@
 
-*{
+*,html, body{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "roboto", sans-serif !important;
-  color: #eff7ef !important;
-  background: rgba(54, 49, 80,1);
+  color: #f0f6f0 !important;
+  background: rgba(0, 0, 139, 0.997);
+  
 }
 ul{
   list-style: none;
@@ -121,9 +124,9 @@ h1{
   
   }
   .navbar ul li{
-  font-size: .7rem;
+  font-size: 1em;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: capitalize;
   margin: 18px;
   border: none;
@@ -158,7 +161,7 @@ h1{
   bottom: 0;
   left: 0;
   font-weight: 800;
-   background: linear-gradient(45deg, rgba(54, 49, 80, 0.9) 0%, rgba(42, 36, 48, 0.9) 100%), url("../img/hero.jpg") center center no-repeat;
+   background: linear-gradient(45deg, rgba(149, 148, 156, 0.96) 0%, rgba(42, 36, 48, .9) 100%), url("../img/hero.jpg") center center no-repeat;
   background-size: cover;
 }
 .navbar-mobile > ul > li{
@@ -172,15 +175,15 @@ h1{
 /* hero section */
 #hero {
   width: 100%;
-  background: linear-gradient(45deg, rgba(54, 49, 80,.9) 0%, rgba(42, 36, 48, .9) 100%), url("../img/heroanim.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(47, 9, 240, 0.84) 0%, rgba(20, 4, 250, 0.902) 100%), url("../img/heroanim.jpg") center center no-repeat;
   background-size: cover;
   text-align: left;
   position: relative;
   padding:4em 0;
-  transition: 4s;
+  transition:all 2s 4s;
 }
  #hero:hover{
-  background: linear-gradient(45deg, rgba(54, 49, 80,.4) 0%, rgba(42, 36, 48, .3) 100%), url("../img/heroanim.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(47, 9, 240, 0.84) 0%, rgba(42, 36, 48, .5) 100%), url("../img/heroanim.jpg") center center no-repeat;
   background-size: cover;
   background-color: inherit;
   background-blend-mode: multiply;
@@ -389,7 +392,15 @@ h1{
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.7);
   transition: all ease-in-out 0.3s;
+  position: relative;
   height: 90%;
+}
+.portfolio .link{
+  bottom: 0;
+  left: 40%;
+  padding: 16px;
+  margin: 8px;
+  display: block;
 }
 .portfolio .work-1{
 background: linear-gradient(45deg, rgba(54, 49, 80, 0.9) 0%, rgba(42, 36, 48, 0.9) 100%), url("/img/portfolio/work-1.jpg") center center no-repeat;
@@ -447,7 +458,9 @@ background-size: cover;
 .portfolio .btn{
   border: 2px solid yellowgreen;
   color: #f1f5f0;
+  
 }
+
 
 /* contact section */
 .contact{
@@ -497,12 +510,17 @@ background-size: cover;
   background-color: #0db9c4;
 }
 @media(max-width: 992px){
+     .portfolio .box {
+  height: 100%;
+}
   .contact {
+    
   padding: 30px 90px;
 }
 
 }
 @media (max-width: 576px) {
+
    .contact{
     padding: 10px 50px;
    }

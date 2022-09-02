@@ -27,11 +27,11 @@ body{
 }
 #hour{
     width: 1.2rem;
-    height: 7rem;
+    height: 5rem;
     background: rgb(229, 235, 236);
     box-shadow: 2px 2px 8px rgb(0, 0, 0);
     position: absolute;
-    top: 4.8em;
+    top: 27%;
     left: 50%;
     transform: rotate(0deg) translateX(-50%);
     transform-origin: bottom center;
