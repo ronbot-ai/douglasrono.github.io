@@ -1,19 +1,22 @@
 
 # My Portfolio App
 <p> The first iteration of my portfolio website (Currently on development)</p>
->  Made with my recent tools and technologies.
+ Made with my recent tools and technologies.
 ## Features
-1. General Structure
-  1. Pre loader
-  1. One page layout
-  1. 6 sections
-  1. Dynamic greeting
-  1. Animated hero section
-  1. Functional contact form
-  1. Responsive design 
-  1. Seo Metatags
-  1. Accessibility features
-  1. Work Demo
+
+<h4>General Structure</h4>
+ <pre>
+   Pre loader
+   One page layout
+   6 sections
+   Dynamic greeting
+   Animated hero section
+   Functional contact form
+   Responsive design 
+   Seo Metatags
+   Accessibility features
+   Work Demo
+<pre>  
 
 1. Sections
     1. hero section
