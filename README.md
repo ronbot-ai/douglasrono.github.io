@@ -1,6 +1,7 @@
 
 # My Portfolio App
-> My portfolio website showcasing my bio, skills, experience, work and contact. Made with my recent tools and technologies.
+<p> The first iteration of my portfolio website (Currently on development)</p>
+>  Made with my recent tools and technologies.
 ## Features
 1. General Structure
   1. Pre loader
