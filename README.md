@@ -2,7 +2,7 @@
 # My Portfolio App
 <p> The first iteration of my portfolio website (Currently on development)</p>
  Made with my recent tools and technologies.
-## Features
+ <h3>Features</h3>
 
 <h4>General Structure</h4>
  <pre>
