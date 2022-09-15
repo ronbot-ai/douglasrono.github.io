@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/douglasrono/douglasrono.github.io/issues"
   },
-  "homepage": "https://github.com/douglasrono/douglasrono.github.io/readme.md"
+  "homepage": "https://github.com/douglasrono/douglasrono.github.io/readme.md",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "bootstrap-icons": "^1.9.1"
+  }
 }
